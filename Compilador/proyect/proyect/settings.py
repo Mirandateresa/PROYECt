@@ -26,9 +26,10 @@ SECRET_KEY = 'django-insecure-q1o5&otr7q=a!q(5!g_$6$%79u=diav+h9i-3@8yvv@ezp40zb
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1:5173',
-    'proyect-m0ol.onrender.com'
-    # Añade aquí el dominio de tu frontend si lo tienes
+    '127.0.0.1',
+    'localhost',
+    'proyect-m0ol.onrender.com',  # El dominio correcto
+    '.render.com'  # Para permitir todos los subdominios de render
 ]
 
 # Application definition
