@@ -16,7 +16,7 @@ function App() {
     setLoading(true);
     setOutput(''); // Limpiar salida anterior
     try {
-      const req = await axios.post('https://compilador-o2bk.onrender.com/api/code', code);
+      const req = await axios.post('https://proyect-m0ol.onrender.com/api/code', code);
       await setOutput(req.data.output);
     } catch (error) {
       console.error("Error al enviar el código:", error);
